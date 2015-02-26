@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ULTP_313</Machine>
+    <WindowsUser>sujatah</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>9876a881-ac12-4d92-9ab1-c21806ded916</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>975D6B1AEA76F98B3C4D2469128653DFFDA208FE788AECB554011FA1A401B7C3</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>9876a881-ac12-4d92-9ab1-c21806ded916_1.0.0.0_neutral__s61n74a2chn6g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>9876a881-ac12-4d92-9ab1-c21806ded916_s61n74a2chn6g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>9876a881-ac12-4d92-9ab1-c21806ded916</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=sujatah</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-26T09:45:49.707</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\bootstrap.css">
+      <PackagePath>css\bootstrap.css</PackagePath>
+      <Modified>2015-02-26T08:20:44.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-csp.css">
+      <PackagePath>js\angular\angular-csp.css</PackagePath>
+      <Modified>2015-02-25T06:29:32.019</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2015-02-26T10:36:09.949</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2015-02-26T09:45:47.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\views\paginationControl.html">
+      <PackagePath>views\paginationControl.html</PackagePath>
+      <Modified>2015-02-25T11:14:52.810</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\views\wines.html">
+      <PackagePath>views\wines.html</PackagePath>
+      <Modified>2015-02-26T10:36:20.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\available.jpg">
+      <PackagePath>images\available.jpg</PackagePath>
+      <Modified>2015-02-24T10:45:02.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T12:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T12:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T12:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-02T12:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\spinner.gif">
+      <PackagePath>images\spinner.gif</PackagePath>
+      <Modified>2015-02-24T10:45:02.945</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-resource.js">
+      <PackagePath>js\angular\angular-resource.js</PackagePath>
+      <Modified>2015-02-25T06:29:32.197</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-route.js">
+      <PackagePath>js\angular\angular-route.js</PackagePath>
+      <Modified>2015-02-25T06:29:32.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-ui-router.js">
+      <PackagePath>js\angular\angular-ui-router.js</PackagePath>
+      <Modified>2015-02-25T09:48:08.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular.js">
+      <PackagePath>js\angular\angular.js</PackagePath>
+      <Modified>2015-02-26T07:07:40.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-ui-bootstrap.js">
+      <PackagePath>js\angular\angular-ui-bootstrap.js</PackagePath>
+      <Modified>2015-02-25T09:49:18.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\config.js">
+      <PackagePath>js\config.js</PackagePath>
+      <Modified>2015-02-25T09:50:58.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\controllers\wineCtrl.js">
+      <PackagePath>js\controllers\wineCtrl.js</PackagePath>
+      <Modified>2015-02-26T10:20:05.677</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2015-02-25T11:07:51.061</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\directives\paginate.js">
+      <PackagePath>js\directives\paginate.js</PackagePath>
+      <Modified>2015-02-25T10:49:31.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\directives\ranks.js">
+      <PackagePath>js\directives\ranks.js</PackagePath>
+      <Modified>2015-02-26T07:12:24.435</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\filters\paginateFilter.js">
+      <PackagePath>js\filters\paginateFilter.js</PackagePath>
+      <Modified>2015-02-26T10:34:23.951</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\services\paginate.js">
+      <PackagePath>js\services\paginate.js</PackagePath>
+      <Modified>2015-02-25T09:59:09.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\services\wines.js">
+      <PackagePath>js\services\wines.js</PackagePath>
+      <Modified>2015-02-25T09:45:49.516</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-02-26T09:45:49.548</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html ng-csp>
+<head>
+    <meta charset="utf-8" />
+    <title>snoothStoreApp</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>    
+    <script src="js/angular/angular.js"></script>
+    <link href="js/angular/angular-csp.css" rel="stylesheet" />
+    <script src="js/angular/angular-ui-bootstrap.js"></script>
+    <script src="js/angular/angular-ui-router.js"></script>
+
+    <!-- snoothStoreApp references -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="js/config.js"></script> 
+    <script src="/js/default.js"></script>    
+
+    <script src="js/filters/paginateFilter.js"></script>
+    <script src="js/directives/paginate.js"></script>
+    <script src="js/directives/ranks.js"></script>
+    <script src="js/controllers/wineCtrl.js"></script>
+    <script src="js/services/wines.js"></script>
+    <script src="js/services/paginate.js"></script>
+
+    
+</head>
+<body>
+    <div class="header centered">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#/">
+                        Snooth Wines&nbsp;&nbsp;
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="js-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a ui-sref="#/">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container centered">
+        <div ui-view></div>
+    </div>
+    <div class="footer centered">
+        <div class="container">
+            <p><span class="glyphicon glyphicon-heart"></span> from the Synerzip team</p>
+        </div>
+    </div>
+</body>
+
+</html>

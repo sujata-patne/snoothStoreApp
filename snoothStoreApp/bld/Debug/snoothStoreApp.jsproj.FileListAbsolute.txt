@@ -1,0 +1,15 @@
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\ReverseMap\resources.pri
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\AppxManifest.xml
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\snoothStoreApp.build.appxrecipe
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\priconfig.xml
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\priconfig.xml.intermediate
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\layout.resfiles
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\layout.resfiles.intermediate
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\resources.resfiles
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\resources.resfiles.intermediate
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\pri.resfiles
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\pri.resfiles.intermediate
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\qualifiers.txt
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\qualifiers.txt.intermediate
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bld\Debug\ProjectArchitectures.txt
