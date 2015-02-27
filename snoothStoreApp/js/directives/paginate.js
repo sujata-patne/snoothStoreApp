@@ -6,4 +6,4 @@
               templateUrl: 'views/paginationControl.html'
           };
       });
-})
+})();

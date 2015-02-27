@@ -4,21 +4,22 @@
             <div class="col-md-12">
                 <form name="searchForm" method="post">
                     <div class="input-group input-group-sm ">
-                        <input type="text" data-ng-model="searchText" placeholder="Search Text" class="input-sm" />&nbsp;&nbsp;
-                        <input type="text" data-ng-model="type" placeholder="Search By Product type" class="input-sm" />&nbsp;&nbsp;
-                        <input type="text" data-ng-model="minPrice" placeholder="Search By Min Price" class="input-sm" />&nbsp;&nbsp;
-                        <input type="text" data-ng-model="maxPrice" placeholder="Search By Max Price" class="input-sm" />&nbsp;&nbsp;
-                        <label class="checkbox-inline"><input type="checkbox" data-ng-model="available">Available</label>&nbsp;&nbsp;
-                        <label class="checkbox-inline"><input type="checkbox" data-ng-model="rank">Sort By Rank</label>&nbsp;&nbsp;
-                        <div class="input-group-btn">
-                            <span class="spinner" ng-show="loading"><img ng-model="spinner" src="images/spinner.gif">&nbsp;&nbsp;</span>
-                            <button class="btn btn-default" ng-click="searchWines()">
-                                <span class="glyphicon glyphicon-search"></span> Search
-                            </button>
-                            <button class="btn btn-default" ng-click="clearSearch()">
-                                <span class="glyphicon glyphicon-refresh"></span> Clear
-                            </button>
-                        </div>
+                        <input type="text" data-ng-model="searchText" placeholder="Search Text" class="input-sm" style="outline: 1px solid #e2e2e2; width:auto" />&nbsp;
+                        <input type="text" data-ng-model="type" placeholder="Search By Product type" class="input-sm" style="outline: 1px solid #e2e2e2; width:auto" />&nbsp;
+                        <input type="text" data-ng-model="minPrice" placeholder="Search By Min Price" class="input-sm" style="outline: 1px solid #e2e2e2; width:auto" />&nbsp;
+                        <input type="text" data-ng-model="maxPrice" placeholder="Search By Max Price" class="input-sm" style="outline: 1px solid #e2e2e2; width:auto" />&nbsp;
+                        <div class="checkbox-inline"><input type="checkbox" data-ng-model="available">&nbsp;&nbsp;Available</div>&nbsp;
+                        <div class="checkbox-inline"><input type="checkbox" data-ng-model="rank">&nbsp;&nbsp;Sort By Rank</div>&nbsp;     
+                        
+                    </div>
+                    <div class="input-group-btn">
+                        <span class="spinner" ng-show="loading"><img ng-model="spinner" src="images/spinner.gif">&nbsp;&nbsp;</span>
+                        <button class="btn btn-default" ng-click="searchWines()">
+                            <span class="glyphicon glyphicon-search"></span> Search
+                        </button>
+                        <button class="btn btn-default" ng-click="clearSearch()">
+                            <span class="glyphicon glyphicon-refresh"></span> Clear
+                        </button>
                     </div>
                 </form>
             </div>
@@ -38,41 +39,16 @@
                         <div class="row">
                             <div class="col-xs-6 col-md-6"><label>Price:</label>&nbsp;{{wine.price}}</div>
                             <div class="col-xs-6 col-md-6">
-                                <ul class="rating" ng-repeat="n in [] | range:wine.snoothrank"><li>☆</li></ul>
-                                <!--<div class="star-rating" star-rating rating-value="wine.snoothrank" data-max="5"></div>-->
+                                <!--<ul class="rating" ng-repeat="n in [] | range:5"><li ng-class="{filled: n < wine.snoothrank}"><i class='fa fa-star'></i></li></ul>-->
+                                <div class="star-rating" star-rating rating-value="wine.snoothrank" data-max="7"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row"><div class="col-xs-12 col-md-12">
-            <div class="pagination text-center" ng-show="paginator.pageCount() > 1" ng-csp>
-                <li ng-click="paginator.firstPage()" ng-class="paginator.isFirstPage() && 'disabled'">
-                    <a href="#">
-                        <i class="glyphicon glyphicon-fast-backward" ng-class="paginator.isFirstPage() && 'icon-white'"></i>
-                    </a>
-                </li>
-                <li ng-click="paginator.perviousPage()" ng-class="paginator.isFirstPage() && 'disabled'">
-                    <a href="#">
-                        <i class="glyphicon glyphicon-step-backward" ng-class="paginator.isFirstPage() && 'icon-white'"></i>
-                    </a>
-                </li>
-                <li ng-click='paginator.setPage(i)' ng-repeat='i in [] | forLoop:0:paginator.pageCount()' ng-class='paginator.page==i && "active"'>
-                    <a href="#">{{i+1}}</a>
-                </li>
-                <li ng-click="paginator.nextPage()" ng-class="paginator.isLastPage() && 'disabled'">
-                    <a href="#">
-                        <i class="glyphicon glyphicon-step-forward" ng-class="paginator.isLastPage() && 'icon-white'"></i>
-                    </a>
-                </li>
-                <li ng-click="paginator.lastPage()" ng-class="paginator.isLastPage() && 'disabled'">
-                    <a href="#">
-                        <i class="glyphicon glyphicon-fast-forward" ng-class="paginator.isLastPage() && 'icon-white'"></i>
-                    </a>
-                </li>
-            </div>
-            <!--<paginate></paginate>-->
+        <div class="row"><paginate class="col-xs-12 col-md-12">
+           <paginate></paginate>
         </div></div>
     </div>
 </div>

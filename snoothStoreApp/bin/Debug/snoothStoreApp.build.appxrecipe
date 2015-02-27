@@ -16,8 +16,14 @@
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\bootmetro.css">
+      <PackagePath>css\bootmetro.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\bootstrap.css">
       <PackagePath>css\bootstrap.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\font-awesome.css">
+      <PackagePath>css\font-awesome.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-csp.css">
       <PackagePath>js\angular\angular-csp.css</PackagePath>
@@ -34,12 +40,54 @@
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\views\wines.html">
       <PackagePath>views\wines.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.eot">
+      <PackagePath>fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>fonts\glyphicons-halflings-regular.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.svg">
+      <PackagePath>fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>fonts\glyphicons-halflings-regular.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.ttf">
+      <PackagePath>fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>fonts\glyphicons-halflings-regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.woff">
+      <PackagePath>fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\FontAwesome.otf">
+      <PackagePath>fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff2</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\available.jpg">
       <PackagePath>images\available.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\first.png">
+      <PackagePath>images\first.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\last.png">
+      <PackagePath>images\last.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\next.png">
+      <PackagePath>images\next.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\prev.png">
+      <PackagePath>images\prev.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>

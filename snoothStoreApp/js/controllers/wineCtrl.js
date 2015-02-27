@@ -48,5 +48,6 @@
             });
         }
         $scope.paginator = Paginate;
+        console.log($scope.paginator.pageCount())
     }]);
 })();

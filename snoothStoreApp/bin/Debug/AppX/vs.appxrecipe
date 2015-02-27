@@ -20,13 +20,21 @@
     <AppXManifest Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-26T09:45:49.707</Modified>
+      <Modified>2015-02-27T05:51:13.838</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\bootmetro.css">
+      <PackagePath>css\bootmetro.css</PackagePath>
+      <Modified>2013-06-18T07:22:03.745</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\bootstrap.css">
       <PackagePath>css\bootstrap.css</PackagePath>
-      <Modified>2015-02-26T08:20:44.951</Modified>
+      <Modified>2015-02-26T13:52:32.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\font-awesome.css">
+      <PackagePath>css\font-awesome.css</PackagePath>
+      <Modified>2015-02-24T09:40:24.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\angular\angular-csp.css">
       <PackagePath>js\angular\angular-csp.css</PackagePath>
@@ -34,28 +42,84 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2015-02-26T10:36:09.949</Modified>
+      <Modified>2015-02-26T13:53:51.986</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2015-02-26T09:45:47.766</Modified>
+      <Modified>2015-02-26T13:54:40.545</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\views\paginationControl.html">
       <PackagePath>views\paginationControl.html</PackagePath>
-      <Modified>2015-02-25T11:14:52.810</Modified>
+      <Modified>2015-02-27T05:55:08.028</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\views\wines.html">
       <PackagePath>views\wines.html</PackagePath>
-      <Modified>2015-02-26T10:36:20.883</Modified>
+      <Modified>2015-02-27T06:22:53.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.eot">
+      <PackagePath>fonts\fontawesome-webfont.eot</PackagePath>
+      <Modified>2015-02-24T09:40:24.418</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.eot">
+      <PackagePath>fonts\glyphicons-halflings-regular.eot</PackagePath>
+      <Modified>2015-02-24T09:40:58.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.svg">
+      <PackagePath>fonts\fontawesome-webfont.svg</PackagePath>
+      <Modified>2015-02-24T09:40:24.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.svg">
+      <PackagePath>fonts\glyphicons-halflings-regular.svg</PackagePath>
+      <Modified>2015-02-24T09:40:58.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.ttf">
+      <PackagePath>fonts\fontawesome-webfont.ttf</PackagePath>
+      <Modified>2015-02-24T09:40:24.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.ttf">
+      <PackagePath>fonts\glyphicons-halflings-regular.ttf</PackagePath>
+      <Modified>2015-02-24T09:40:58.131</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\fontawesome-webfont.woff">
+      <PackagePath>fonts\fontawesome-webfont.woff</PackagePath>
+      <Modified>2015-02-24T09:40:24.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.woff">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff</PackagePath>
+      <Modified>2015-02-24T09:40:58.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\FontAwesome.otf">
+      <PackagePath>fonts\FontAwesome.otf</PackagePath>
+      <Modified>2015-02-24T09:40:24.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\fonts\glyphicons-halflings-regular.woff2">
+      <PackagePath>fonts\glyphicons-halflings-regular.woff2</PackagePath>
+      <Modified>2015-02-24T09:40:58.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\available.jpg">
       <PackagePath>images\available.jpg</PackagePath>
       <Modified>2015-02-24T10:45:02.911</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\first.png">
+      <PackagePath>images\first.png</PackagePath>
+      <Modified>2015-02-26T12:06:56.475</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\last.png">
+      <PackagePath>images\last.png</PackagePath>
+      <Modified>2015-02-26T12:05:50.377</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-06-02T12:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\next.png">
+      <PackagePath>images\next.png</PackagePath>
+      <Modified>2015-02-26T12:07:23.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\prev.png">
+      <PackagePath>images\prev.png</PackagePath>
+      <Modified>2015-02-26T12:07:58.584</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
@@ -102,7 +166,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\controllers\wineCtrl.js">
       <PackagePath>js\controllers\wineCtrl.js</PackagePath>
-      <Modified>2015-02-26T10:20:05.677</Modified>
+      <Modified>2015-02-27T06:06:20.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -110,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\directives\paginate.js">
       <PackagePath>js\directives\paginate.js</PackagePath>
-      <Modified>2015-02-25T10:49:31.448</Modified>
+      <Modified>2015-02-27T06:22:59.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\directives\ranks.js">
       <PackagePath>js\directives\ranks.js</PackagePath>
@@ -118,7 +182,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\filters\paginateFilter.js">
       <PackagePath>js\filters\paginateFilter.js</PackagePath>
-      <Modified>2015-02-26T10:34:23.951</Modified>
+      <Modified>2015-02-27T06:14:59.175</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\js\services\paginate.js">
       <PackagePath>js\services\paginate.js</PackagePath>
@@ -130,7 +194,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sujatah\Visual Studio 2013\Projects\snoothStoreApp\snoothStoreApp\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-26T09:45:49.548</Modified>
+      <Modified>2015-02-27T05:51:13.420</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

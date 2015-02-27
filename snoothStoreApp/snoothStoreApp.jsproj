@@ -55,10 +55,26 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="css\bootmetro.css" />
     <Content Include="css\bootstrap.css" />
+    <Content Include="css\font-awesome.css" />
     <Content Include="default.html" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="images\available.jpg" />
+    <Content Include="images\first.png" />
+    <Content Include="images\last.png" />
     <Content Include="images\logo.scale-100.png" />
+    <Content Include="images\next.png" />
+    <Content Include="images\prev.png" />
     <Content Include="images\smalllogo.scale-100.png" />
     <Content Include="images\spinner.gif" />
     <Content Include="images\splashscreen.scale-100.png" />
